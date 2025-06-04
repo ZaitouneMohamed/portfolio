@@ -1,73 +1,116 @@
-# Welcome to your Lovable project
+# Mohamed Zaitoune Portfolio
 
-## Project info
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS, showcasing my professional experience, projects, and skills.
 
-**URL**: https://lovable.dev/projects/4084ddfa-5f5c-4cee-8e49-1d6a3f0ea30c
+## 🌟 Features
 
-## How can I edit this code?
+### Hero Section
+- Animated, centered design for strong first impressions
+- Interactive PDF resume viewer with modal
+- Quick access buttons for navigation
+- Resume download and external view options
 
-There are several ways of editing your application.
+### Skills Section
+- Modern card-based design with icons
+- Interactive progress bars
+- Categorized skills (Frontend, Backend, DevOps)
+- Hover effects and smooth animations
+- Comprehensive technical stack display
 
-**Use Lovable**
+### Projects Section
+- Detailed project cards with icons
+- Interactive modals for in-depth project information
+- Technology stack tags
+- Company/client information
+- Responsive grid layout
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4084ddfa-5f5c-4cee-8e49-1d6a3f0ea30c) and start prompting.
+### Contact Section
+- Validated contact form
+- Loading state indicators
+- Social media integration
+- Professional layout and styling
+- Direct contact information
 
-Changes made via Lovable will be committed automatically to this repo.
+### Additional Features
+- Responsive design for all devices
+- Smooth animations and transitions
+- SEO-optimized with meta tags
+- Custom favicon
+- Footer with quick navigation and social links
 
-**Use your preferred IDE**
+## 🚀 Technologies Used
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend Framework:** React with TypeScript
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn-ui
+- **Build Tool:** Vite
+- **Version Control:** Git
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Installation
 
-Follow these steps:
+1. Clone the repository:
+```bash
+git clone <repository-url>
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Navigate to the project directory:
+```bash
+cd portfolio
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. Install dependencies:
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📱 Responsive Design
 
-**Use GitHub Codespaces**
+The portfolio is fully responsive and optimized for:
+- Desktop devices
+- Tablets
+- Mobile phones
+- Various screen sizes and orientations
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🔧 Project Structure
 
-## What technologies are used for this project?
+```
+portfolio/
+├── src/
+│   ├── components/
+│   │   ├── Hero/
+│   │   ├── Skills/
+│   │   ├── Projects/
+│   │   ├── Contact/
+│   │   └── Footer/
+│   ├── assets/
+│   ├── styles/
+│   └── App.tsx
+├── public/
+└── index.html
+```
 
-This project is built with:
+## 🎨 Customization
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+The portfolio can be easily customized by:
+1. Modifying the content in respective components
+2. Adjusting the theme colors in the Tailwind configuration
+3. Adding or removing sections as needed
+4. Updating personal information and projects
 
-## How can I deploy this project?
+## 📄 License
 
-Simply open [Lovable](https://lovable.dev/projects/4084ddfa-5f5c-4cee-8e49-1d6a3f0ea30c) and click on Share -> Publish.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Can I connect a custom domain to my Lovable project?
+## 📞 Contact
 
-Yes, you can!
+For any inquiries or suggestions, feel free to reach out through the contact form on the website or through the provided social media links.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+Built with ❤️ by Mohamed Zaitoune

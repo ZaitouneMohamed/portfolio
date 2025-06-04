@@ -24,11 +24,11 @@ const Skills = () => {
       icon: Layout,
       description: "Building responsive and interactive user interfaces",
       skills: [
-        { name: "HTML/CSS", level: 95, icon: FileCode2 },
-        { name: "JavaScript", level: 90, icon: Braces },
-        { name: "React.js", level: 85, icon: Code2 },
-        { name: "Vue.js", level: 80, icon: Code2 },
-        { name: "Tailwind CSS", level: 90, icon: Palette }
+        { name: "HTML/CSS", level: 80, icon: FileCode2 },
+        { name: "JavaScript", level: 70, icon: Braces },
+        { name: "React.js", level: 70, icon: Code2 },
+        { name: "Vue.js", level: 60, icon: Code2 },
+        { name: "Tailwind CSS", level: 70, icon: Palette }
       ]
     },
     {
@@ -36,11 +36,11 @@ const Skills = () => {
       icon: Server,
       description: "Creating robust and scalable server-side applications",
       skills: [
-        { name: "PHP/Laravel", level: 90, icon: Code2 },
-        { name: "RESTful APIs", level: 85, icon: Box },
-        { name: "MySQL", level: 85, icon: Database },
-        { name: "PostgreSQL", level: 80, icon: Database },
-        { name: "Clean Architecture", level: 85, icon: Layers }
+        { name: "PHP/Laravel", level: 75, icon: Code2 },
+        { name: "RESTful APIs", level: 70, icon: Box },
+        { name: "MySQL", level: 70, icon: Database },
+        { name: "PostgreSQL", level: 55, icon: Database },
+        { name: "Clean Architecture", level: 70, icon: Layers }
       ]
     },
     {
@@ -48,11 +48,9 @@ const Skills = () => {
       icon: Cpu,
       description: "Tools and technologies for development and deployment",
       skills: [
-        { name: "Git/GitHub", level: 90, icon: GitBranch },
-        { name: "Docker", level: 80, icon: Container },
-        { name: "Linux", level: 85, icon: Server },
-        { name: "Cloud Services", level: 75, icon: Cloud },
-        { name: "UI/UX Design", level: 80, icon: FigmaIcon }
+        { name: "Git/GitHub", level: 85, icon: GitBranch },
+        { name: "Docker", level: 60, icon: Container },
+        { name: "Linux", level: 60, icon: Server },
       ]
     }
   ];
